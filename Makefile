@@ -7,3 +7,5 @@ check:
 	git add .
 	pre-commit run
 
+update-requirements:
+	pcu requirements.txt -u
